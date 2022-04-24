@@ -45,7 +45,7 @@
 | ----- | ------ | ----- |
 | text  | string | null: false |
 | user  | references | null: false, foreign_key: true |
-
+| touring | references | null:false, foreign_key:true |
 ### Association
 * belongs_to :touring
 * belongs_to :user
