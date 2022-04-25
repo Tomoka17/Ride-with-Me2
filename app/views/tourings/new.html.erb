@@ -1,0 +1,99 @@
+<style>
+.bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+.main{
+  width: 80%;
+  padding: 10px;
+}    
+.mb-3{
+  width: 50%;
+  margin-left: 15px;
+  align-items: center;
+}
+.select-box{
+  width: 50%;
+}
+</style>
+
+<div class="conteiner d-flex">
+  <div class="text-white bg-dark" style="width: 20%;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-4">Sidebar</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link active" aria-current="page">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+          MyPage
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+          Tourings
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+          Garage
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+          Members
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+          Others
+        </a>
+      </li>
+    </ul>
+    <hr>
+</div>
+  <div class="main">
+    <h1>ツーリング記録</h1>
+      <%= form_with(model: @touring, local: true) do |f| %>
+      <%#= render "devise/shared/error_messages", resource: resource %>
+        <div class="mb-3">
+          <div class="field">
+            <%= f.label :image %><br />
+            <%= f.file_field :image, id:"touring-image" %>
+          </div>
+        </div>
+        <div class="mb-3">
+          <%= f.label :title %><br />
+          <%= f.text_area :title, class:"form-control", id:"touring-title", placeholder:"タイトル（必須 40文字まで)", maxlength:"40" %>
+        </div>
+        <div class="mb-3">
+          <%= f.label :weather %><br />
+          <%= f.collection_select(:weather_id, Weather.all, :id, :name, {include_blank: ''}, {class:"select-box"}) %>
+        </div>
+        <div class="mb-3">
+          <%= f.label :mileage %><br />
+          <%= f.text_area :mileage, class:"form-control", id:"touring-mileage", placeholder:"総走行距離" %>
+        </div>
+        <div class="mb-3">
+          <%= f.label :record %><br />
+          <%= f.text_area :record, class:"form-control", id:"touring-record", placeholder:"ツーリング中の思い出（必須 1000文字まで)", maxlength:"1000" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
