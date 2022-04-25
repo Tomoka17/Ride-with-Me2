@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 2022_04_18_063619) do
     t.string "title", null: false
     t.integer "weather_id", null: false
     t.integer "mileage", null: false
-    t.text "record", null: false
+    t.text "recording", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
