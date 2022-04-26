@@ -103,10 +103,12 @@ RIDE with ME
 ライダー向けのSNS、コミュケーションツール
 
 ## URL
+「https://ride-with-me37718.herokuapp.com/」
+Basic認証
+username: 「admin」
+password: 「2222」
+※まだ制作途中です
 
-## テスト用アカウント
-
-## 利用方法
 
 ## アプリケーション作成背景
 ツーリング中での思い出を簡単に共有できるアプリとして作成しました。
@@ -114,13 +116,15 @@ RIDE with ME
 機能を実装し、ルートを組む時に、幾つものサイトを検索しなくても情報が一つにまとまっているものがあれば便利だと思い作成に至りました。
 
 ## 実装予定の機能
+* Garageスペースでのチャット
+* ユーザー同士のMyfriend登録機能
+* 投稿記事、友達検索機能
 
 ## データベース設計
+[![Image from Gyazo](https://i.gyazo.com/6f14ea40c6e0d1893f974b080d659c12.jpg)](https://gyazo.com/6f14ea40c6e0d1893f974b080d659c12)
 
 ## 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/5062ec19b35afb091bb378b042cb57a1.png)](https://gyazo.com/5062ec19b35afb091bb378b042cb57a1)
 
 ## 開発環境
-
-## ローカルでの操作方法
-
-## 工夫点
+Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
