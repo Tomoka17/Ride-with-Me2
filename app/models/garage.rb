@@ -1,2 +1,3 @@
 class Garage < ApplicationRecord
+  
 end

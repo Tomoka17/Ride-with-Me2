@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-lg-3 me-lg-auto">
             <div class="card border-0 shadow mb-6 mb-lg-0">
-              <div class="card-header bg-gray-100 py-4 border-0 text-center"><a class="d-inline-block" href="#"><img class="d-block avatar avatar-xxl p-2 mb-2" src="img/avatar/avatar-10.jpg" alt=""></a>
+              <div class="card-header bg-gray-100 py-4 border-0 text-center"><a class="d-inline-block" href="#"><img class="d-block avatar avatar-xxl p-2 mb-2" src="Ride-with-Me/app/assets/images/img/avatar/avatar-10.jpg" alt=""></a>
                 <h5><%= current_user.nickname %></h5>
                 <p class="text-muted text-sm mb-0">Los Angeles, CA  </p>
               </div>
@@ -40,9 +40,9 @@
             </div>
           </div>
           <div class="col-lg-9 ps-lg-5">
-            <h1 class="hero-heading mb-0">taroさんのマイページ</h1>
+            <h1 class="hero-heading mb-0"><%= "#{current_user.nickname}さんのマイページ" %></h1>
             <div class="text-block">
-              <p> <span class="badge badge-secondary-light">Joined in 2011</span></p>
+              <p> <span class="badge badge-secondary-light"><%= "#{current_user.created_at}から参加しています" %></span></p>
               <p class="text-muted">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.  </p>
               <p class="text-muted">He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before.  </p>
             </div>
