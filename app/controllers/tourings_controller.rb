@@ -6,15 +6,15 @@ class TouringsController < ApplicationController
   end
 
   def new
-    #@touring = Touring.new
+    @touring = Touring.new
   end
 
   def create
     @touring = Touring.new(touring_params)
       if @touring.save
-        redirect_to "index"
+        redirect_to tourings_path
       else
-        render new
+        render "new"
       end
   end
 
@@ -22,7 +22,7 @@ class TouringsController < ApplicationController
 
   def touring_params
     params.require(:touring).permit(
-      :image, :title, :weather_id, :mileage, :record
+      :image, :title, :weather_id, :mileage, :recording
     ).merge(user_id: current_user.id)
   end
 end

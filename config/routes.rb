@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :garages
   resources :tourings
+  resources :users, only: :show
 end

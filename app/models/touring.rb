@@ -11,7 +11,7 @@ class Touring < ApplicationRecord
     validates :title, length: {maximum: 40}
     validates :weather_id, numericality: { only_integer: true, message: "can't be blank" }
     validates :mileage, numericality: { only_integer: true }
-    validates :record, length: {maximum: 1000}
+    validates :recording, length: {maximum: 1000}
     validates :user
   end
   
