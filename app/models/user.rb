@@ -3,6 +3,7 @@ class User < ApplicationRecord
           :recoverable, :rememberable, :validatable
 
     has_many :tourings
+    has_one_attached :image
     #has_many :garage_users
     #has_many :garages,thorough: :garage_users
     #has_many :messages
@@ -22,6 +23,7 @@ class User < ApplicationRecord
     validates :age_id, numericality: { only_integer: true, message: "can't be blank"}
     validates :gender_id, numericality: { only_integer: true, message: "can't be blank" }
     validates :prefecture_id, numericality: { only_integer: true, message: "can't be blank" }
+    validates :image
   end
     validates :personality_id, numericality: { only_integer: true, message: "can't be blank" }
 end
