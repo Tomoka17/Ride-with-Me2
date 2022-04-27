@@ -67,6 +67,13 @@
           <%= f.label :personality, class:"form-label"%><br />
           <%= f.collection_select(:personality_id, Personality.all, :id, :name, {include_blank: ''}, {class:"form-select"}) %>
         </div>
+
+        <div class="mb-3">
+          <div class="field">
+            <%= f.label :profile_image, class:"form-label"%><br />
+            <%= f.file_field :image, id:"profile-image" %>
+          </div>
+        </div>
         
 
         <div class="actions">
