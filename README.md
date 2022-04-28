@@ -7,7 +7,7 @@ RIDE with ME
 ライダー向けのSNS、コミュケーションツール
 
 ## URL
-「https://ride-with-me37718.herokuapp.com/」
+
 Basic認証
 * username: 「admin」
 * password: 「2222」
