@@ -22,7 +22,7 @@
               <div class="card-body"><%= link_to "#{touring.user.nickname}", user_path(touring.user_id), class:"text-uppercase text-muted text-sm letter-spacing-2" %>
                 <h5 class="my-2"><%= touring.title %></h5>
                 <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i><%= touring.created_at.strftime("%Y年 %m月 %d日") %></p>
-                <p class="my-2 text-muted text-sm"><%= touring.recording %></p><%= link_to"Read more", touring_path(@touring), class:"btn btn-link ps-0" %><i class="fa fa-long-arrow-alt-right ms-2"></i></a>
+                <p class="my-2 text-muted text-sm"><%= touring.recording %></p><%= link_to"Read more", touring_path(touring.id), class:"btn btn-link ps-0" %><i class="fa fa-long-arrow-alt-right ms-2"></i></a>
               </div>
             </div>
           </div>

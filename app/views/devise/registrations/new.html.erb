@@ -16,17 +16,17 @@
   <%= render "devise/shared/error_messages", resource: resource %>
     <div class="mb-4">
       <div class="field">
-          <%= f.label :nickname, class:"form-label" %><br />
+          <%= f.label :nickname, class:"form-label" %><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.text_field :nickname, autocomplete: "nickname",class:"form-control" %>
         </div>
 
         <div class="field">
-          <%= f.label :email, class:"form-label" %><br />
+          <%= f.label :email, class:"form-label" %><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.email_field :email, autocomplete: "email",class:"form-control" %>
         </div>
 
         <div class="field">
-          <%= f.label :password, class:"form-label"%><br />
+          <%= f.label :password, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <% if @minimum_password_length %>
           <em>(<%= @minimum_password_length %> characters minimum)</em>
           <% end %><br />
@@ -34,12 +34,12 @@
         </div>
 
         <div class="field">
-          <%= f.label :password_confirmation, class:"form-label"%><br />
+          <%= f.label :password_confirmation, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"form-control"%>
         </div>
 
         <div class="field">
-          <%= f.label :genre, class:"form-label"%><br />
+          <%= f.label :genre, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.collection_select(:genre_id, Genre.all, :id, :name, {include_blank: ''}, {class:"form-select"}) %>
         </div>
 
@@ -49,17 +49,17 @@
         </div>
 
         <div class="field">
-          <%= f.label :age, class:"form-label"%><br />
+          <%= f.label :age, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.collection_select(:age_id, Age.all, :id, :name, {include_blank: ''}, {class:"form-select"}) %>
         </div>
 
         <div class="field">
-          <%= f.label :gender, class:"form-label"%><br />
+          <%= f.label :gender, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.collection_select(:gender_id, Gender.all, :id, :name, {include_blank: ''}, {class:"form-select"}) %>
         </div>
 
         <div class="field">
-          <%= f.label :prefecture, class:"form-label"%><br />
+          <%= f.label :prefecture, class:"form-label"%><button type="button" class="btn btn-outline-info btn-sm m-1">Must</button><br />
           <%= f.collection_select(:prefecture_id, Prefecture.all, :id, :name, {include_blank: ''}, {class:"form-select"}) %>
         </div>
 
