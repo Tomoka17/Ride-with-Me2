@@ -1,5 +1,5 @@
 class TouringsController < ApplicationController
-  #before_action :authenticate_user!
+  before_action :authenticate_user!, except: :index
 
   def index
     @tourings = Touring.order("created_at DESC")
@@ -16,6 +16,10 @@ class TouringsController < ApplicationController
       else
         render "new"
       end
+  end
+
+  def show
+    @touring = Touring.find(params[:id])
   end
 
   private

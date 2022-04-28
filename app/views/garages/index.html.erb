@@ -73,11 +73,11 @@
           <!-- blog item-->
           <% @tourings.first(3).each do |touring| %>
           <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100"><a href="post.html"><%= image_tag touring.image, class:"img-fluid card-img-top" if touring.image.attached? %></a>
-              <div class="card-body"><%= link_to "#{touring.user.nickname}", "#", class:"text-uppercase text-muted text-sm letter-spacing-2" %>
+            <div class="card shadow border-0 h-100"><% link_to user_path(touring.user_id) %><%= image_tag touring.image, class:"img-fluid card-img-top" if touring.image.attached? %></a>
+              <div class="card-body"><%= link_to "#{touring.user.nickname}", user_path(touring.user_id), class:"text-uppercase text-muted text-sm letter-spacing-2" %>
                 <h5 class="my-2"><%= touring.title %></h5>
                 <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i><%= touring.created_at.strftime("%Y年 %m月 %d日") %></p>
-                <p class="my-2 text-muted text-sm"><%= touring.recording %></p><a class="btn btn-link ps-0" href="post.html">Read more<i class="fa fa-long-arrow-alt-right ms-2"></i></a>
+                <p class="my-2 text-muted text-sm"><%= touring.recording %></p><%= link_to"Read more", touring_path(touring.id), class:"btn btn-link ps-0" %><i class="fa fa-long-arrow-alt-right ms-2"></i></a>
               </div>
             </div>
           </div>
