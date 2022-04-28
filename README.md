@@ -9,9 +9,9 @@ RIDE with ME
 ## URL
 「https://ride-with-me37718.herokuapp.com/」
 Basic認証
-username: 「admin」
-password: 「2222」
-※まだ制作途中です
+* username: 「admin」
+* password: 「2222」
+※ まだ制作途中です
 ダミーの写真で申し訳ございません
 [![Image from Gyazo](https://i.gyazo.com/73f215a10d3f95b1e4c9e3645551298a.gif)](https://gyazo.com/73f215a10d3f95b1e4c9e3645551298a)
 
