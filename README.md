@@ -1,4 +1,41 @@
 # README
+
+## アプリケーション名
+RIDE with ME
+
+## アプリケーション概要
+ライダー向けのSNS、コミュケーションツール
+
+## URL
+「https://ride-with-me37718.herokuapp.com/」
+Basic認証
+username: 「admin」
+password: 「2222」
+※まだ制作途中です
+ダミーの写真で申し訳ございません
+[![Image from Gyazo](https://i.gyazo.com/73f215a10d3f95b1e4c9e3645551298a.gif)](https://gyazo.com/73f215a10d3f95b1e4c9e3645551298a)
+
+[![Image from Gyazo](https://i.gyazo.com/396ad3caad2cb3609c57899bc136d95e.gif)](https://gyazo.com/396ad3caad2cb3609c57899bc136d95e)
+
+[![Image from Gyazo](https://i.gyazo.com/68b55c1c5ebbf053bfcada1bca66aeef.gif)](https://gyazo.com/68b55c1c5ebbf053bfcada1bca66aeef)
+
+[![Image from Gyazo](https://i.gyazo.com/a5470983bee41e5db783d6efc7512f94.gif)](https://gyazo.com/a5470983bee41e5db783d6efc7512f94)
+## アプリケーション作成背景
+ツーリング中での思い出を簡単に共有できるアプリとして作成しました。
+また県外へツーリングする際に参考になるような場所、お店などが検索できる（または質問できる）ような
+機能を実装し、ルートを組む時に、幾つものサイトを検索しなくても情報が一つにまとまっているものがあれば便利だと思い作成に至りました。
+
+## 実装予定の機能
+* Garageスペースでのチャット
+* ユーザー同士のMyfriend登録機能
+* 投稿記事、友達検索機能
+
+## データベース設計
+[![Image from Gyazo](https://i.gyazo.com/6f14ea40c6e0d1893f974b080d659c12.jpg)](https://gyazo.com/6f14ea40c6e0d1893f974b080d659c12)
+
+## 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/5062ec19b35afb091bb378b042cb57a1.png)](https://gyazo.com/5062ec19b35afb091bb378b042cb57a1)
+
 ## テーブル設計
 
 ## users
@@ -89,42 +126,6 @@
 ### Association
 * belongs_to :user
 * belongs_to :garage
-
-
-
-
-
-
-
-## アプリケーション名
-RIDE with ME
-
-## アプリケーション概要
-ライダー向けのSNS、コミュケーションツール
-
-## URL
-「https://ride-with-me37718.herokuapp.com/」
-Basic認証
-username: 「admin」
-password: 「2222」
-※まだ制作途中です
-
-
-## アプリケーション作成背景
-ツーリング中での思い出を簡単に共有できるアプリとして作成しました。
-また県外へツーリングする際に参考になるような場所、お店などが検索できる（または質問できる）ような
-機能を実装し、ルートを組む時に、幾つものサイトを検索しなくても情報が一つにまとまっているものがあれば便利だと思い作成に至りました。
-
-## 実装予定の機能
-* Garageスペースでのチャット
-* ユーザー同士のMyfriend登録機能
-* 投稿記事、友達検索機能
-
-## データベース設計
-[![Image from Gyazo](https://i.gyazo.com/6f14ea40c6e0d1893f974b080d659c12.jpg)](https://gyazo.com/6f14ea40c6e0d1893f974b080d659c12)
-
-## 画面遷移図
-[![Image from Gyazo](https://i.gyazo.com/5062ec19b35afb091bb378b042cb57a1.png)](https://gyazo.com/5062ec19b35afb091bb378b042cb57a1)
 
 ## 開発環境
 Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
