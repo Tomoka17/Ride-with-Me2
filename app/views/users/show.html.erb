@@ -60,7 +60,7 @@
                     </div>
                     <div class="card-body d-flex align-items-center">
                       <div class="w-100">
-                        <h6 class="card-title"><%= link_to"#{touring.title}", "#", class:"text-decoration-none text-dark" %></h6>
+                        <h6 class="card-title"><%= link_to"#{touring.title}", touring_path(touring.id), class:"text-decoration-none text-dark" %></h6>
                         <div class="d-flex card-subtitle mb-3">
                           <p class="flex-grow-1 mb-0 text-muted text-sm"><%= touring.weather.name %></p>
                           <p class="flex-grow-1 mb-0 text-muted text-sm"><%= "#{touring.mileage}km" %></p>
