@@ -1,6 +1,8 @@
-    <section class="hero-home dark-overlay mb-5">
-      <%= image_tag @touring.image, class:"bg-image" %>
+  <div style="padding-top: 72px">  
+    <section class="hero-home mb-5">
+      <%= image_tag @touring.image, class:"bg-image center bs-cover img-fluid h-100" %>
     </section>
+  </div>  
     <section>
       <div class="container">
         <div class="row">
@@ -12,7 +14,7 @@
         </div>
       
         <div class="row">
-          <div class="col-xl-8 col-lg-10 mx-auto">                               
+          <div class="col-xl-8 col-lg-10 mx-auto">
             <div class="text-content">
               <p><%= "本日の天気：#{@touring.weather.name}" %><span class="mx-1">,</span><%= "総走行距離：#{@touring.mileage}km" %></p>
               
