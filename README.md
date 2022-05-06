@@ -13,14 +13,9 @@ Basic認証
 * password: 「2222」
 ※ まだ制作途中です
 ダミーの写真で申し訳ございません
-
-[![Image from Gyazo](https://i.gyazo.com/73f215a10d3f95b1e4c9e3645551298a.gif)](https://gyazo.com/73f215a10d3f95b1e4c9e3645551298a)
-
-[![Image from Gyazo](https://i.gyazo.com/396ad3caad2cb3609c57899bc136d95e.gif)](https://gyazo.com/396ad3caad2cb3609c57899bc136d95e)
-
-[![Image from Gyazo](https://i.gyazo.com/68b55c1c5ebbf053bfcada1bca66aeef.gif)](https://gyazo.com/68b55c1c5ebbf053bfcada1bca66aeef)
-
-[![Image from Gyazo](https://i.gyazo.com/a5470983bee41e5db783d6efc7512f94.gif)](https://gyazo.com/a5470983bee41e5db783d6efc7512f94)
+[![Image from Gyazo](https://i.gyazo.com/f52af5c2949b9b9521eab576e4f44f95.gif)](https://gyazo.com/f52af5c2949b9b9521eab576e4f44f95)
+[![Image from Gyazo](https://i.gyazo.com/55cff1f0a26fab4000c5d713a2417741.gif)](https://gyazo.com/55cff1f0a26fab4000c5d713a2417741)
+[![Image from Gyazo](https://i.gyazo.com/c1f6016f4473831107cde8acc22e586f.gif)](https://gyazo.com/c1f6016f4473831107cde8acc22e586f)
 
 ## アプリケーション作成背景
 ツーリング中での思い出を簡単に共有できるアプリとして作成しました。
