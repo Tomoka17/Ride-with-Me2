@@ -13,8 +13,11 @@ Basic認証
 * password: 「2222」
 ※ まだ制作途中です
 ダミーの写真で申し訳ございません
+
 [![Image from Gyazo](https://i.gyazo.com/f52af5c2949b9b9521eab576e4f44f95.gif)](https://gyazo.com/f52af5c2949b9b9521eab576e4f44f95)
+
 [![Image from Gyazo](https://i.gyazo.com/55cff1f0a26fab4000c5d713a2417741.gif)](https://gyazo.com/55cff1f0a26fab4000c5d713a2417741)
+
 [![Image from Gyazo](https://i.gyazo.com/c1f6016f4473831107cde8acc22e586f.gif)](https://gyazo.com/c1f6016f4473831107cde8acc22e586f)
 
 ## アプリケーション作成背景
