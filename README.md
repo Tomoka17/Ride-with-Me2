@@ -11,7 +11,7 @@ RIDE with ME
 Basic認証
 * username: 「admin」
 * password: 「2222」
-※ まだ制作途中です
+※ まだ制作途中です</br>
 ダミーの写真で申し訳ございません
 
 [![Image from Gyazo](https://i.gyazo.com/b564715e726cd11316143cc50a7b304d.gif)](https://gyazo.com/b564715e726cd11316143cc50a7b304d)
