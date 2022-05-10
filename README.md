@@ -14,8 +14,11 @@ Basic認証
 ※ まだ制作途中です</br>
 ダミーの写真で申し訳ございません
 
-![demo](https://gyazo.com/b564715e726cd11316143cc50a7b304d/raw)
+![84438e6deccc2fd97cc85e28684da8b3](https://user-images.githubusercontent.com/101072410/167564150-de34664f-0188-4045-bd67-c081df16da15.gif)
 
+![688fcfc59a831500d57a5202cbd7de10](https://user-images.githubusercontent.com/101072410/167564316-f5cfab1f-2cdb-42b2-8a99-dced3206102c.gif)
+
+![69cbcc1129c8a7e0580c45cfc9a7334c](https://user-images.githubusercontent.com/101072410/167564520-5dc752a9-ea4d-4c3e-942d-78e90c75f4c9.gif)
 
 ## アプリケーション作成背景
 ツーリング中での思い出を簡単に共有できるアプリとして作成しました。
