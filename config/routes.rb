@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   root to: 'garages#index'
 
   resources :garages
-  resources :tourings
+  resources :tourings do
+    resources :comments, only:[:index, :create]
+  end
   resources :users, only: :show
+  
 end
