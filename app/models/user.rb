@@ -4,6 +4,7 @@ class User < ApplicationRecord
 
     has_many :tourings
     has_one_attached :image
+    has_many :comments
     #has_many :garage_users
     #has_many :garages,thorough: :garage_users
     #has_many :messages

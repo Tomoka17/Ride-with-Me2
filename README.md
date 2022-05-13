@@ -54,6 +54,7 @@ Basic認証
 
 ### Association 
 * has_many :tourings
+* has_many :comments
 * has_many :garage_users
 * has_many :garages, thorough: :garage_users
 * has_many :messages
